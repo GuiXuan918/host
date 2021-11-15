@@ -1526,6 +1526,28 @@ img:not([src]) {
 .img-alt:hover {
   text-decoration: none !important;
 }
+#page-header.not-top-img #nav {
+  background: transparent !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+#page-header.not-top-img #nav a {
+  color: #fff !important;
+}
+#page-header.nav-visible #nav {
+  background: rgba(255,255,255,0.8) !important;
+}
+#page-header.nav-visible #nav a {
+  color: var(--font-color) !important;
+}
+[data-theme='dark'] #page-header.not-top-img > #nav {
+  background: transparent !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+[data-theme='dark'] #page-header.nav-visible > #nav {
+  background: rgba(18,18,18,0.8) !important;
+}
 :root {
   --hl-color: #90a4ae;
   --hl-bg: #f6f8fa;
